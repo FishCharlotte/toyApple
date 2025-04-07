@@ -8,7 +8,7 @@
 - 通过react-native-safe-area-context处理刘海屏/状态栏差异
 - 采用expo-constants动态获取平台特性参数
 - 
-## 关键技术点
+## ✨ 关键技术点
 | 技术方向       | 实现方案                      |
 |----------------|-----------------------------|
 | 路由系统       | expo-router文件式路由        |
@@ -26,4 +26,17 @@
 git clone https://github.com/FishCharlotte/toyApple.git
 cd project
 npm install
-expo start
+```
+在Android启动
+```bash
+expo run:android
+```
+在IOS启动
+```bash
+expo run:ios
+```
+
+## 📱效果图展示
+<img src="/imgs/home.png" width="250" alt="home page">
+<img src="/imgs/discover.png" width="250" alt="home page">
+<img src="/imgs/article.png" width="250" alt="home page">
